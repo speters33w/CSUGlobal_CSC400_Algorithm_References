@@ -1,0 +1,13 @@
+@startuml
+interface BagInterface {
+~ int getCurrentSize()
+~ boolean isEmpty()
+~ boolean add(T)
+~ T remove()
+~ boolean remove(T)
+~ void clear()
+~ int getFrequencyOf(T)
+~ boolean contains(T)
+~ T[] toArray()
+}
+@enduml

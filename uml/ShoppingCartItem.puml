@@ -1,0 +1,28 @@
+@startuml
+class ShoppingCartItem {
+- String upc
+- String productName
+- BigDecimal price
+- String description
+- int quantity
+- boolean inStock
+- String imageURL
++ <<Create>> ShoppingCartItem(String,String,BigDecimal,String,int,boolean,String)
++ String getUpc()
++ String getProductName()
++ BigDecimal getPrice()
++ String getDescription()
++ int getQuantity()
++ boolean isInStock()
++ String getImageURL()
++ void setUpc(String)
++ void setProductName(String)
++ void setDescription(String)
++ void setQuantity(int)
++ void setInStock(boolean)
++ void setImageURL(String)
++ BigDecimal getTotal()
++ boolean equals(ShoppingCartItem)
++ String toString()
+}
+@enduml

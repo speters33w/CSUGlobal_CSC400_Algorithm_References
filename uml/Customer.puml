@@ -1,0 +1,42 @@
+@startuml
+class Customer {
+- String customerID
+- String firstName
+- String lastName
+- String address
+- String city
+- String state
+- String zip
+- String phone
+- String email
+- String creditCardNumber
+- String creditCardExpiration
+- String creditCardCVV
+- String creditCardType
+- String creditCardName
+- String creditCardZipCode
++ <<Create>> Customer(String,String,String,String,String,String,String,String,String)
++ <<Create>> Customer(String,String,String,String,String,String,String,String,String,String,String,String,String,String)
++ <<Create>> Customer(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)
++ void setFirstName(String)
++ void setLastName(String)
++ void setAddress(String)
++ void setCity(String)
++ void setState(String)
++ void setZip(String)
++ void setPhone(String)
++ void setEmail(String)
++ void setCreditCardNumber(String)
++ void setCreditCardExpiration(String)
++ void setCreditCardCVV(String)
++ void setCreditCardType(String)
++ void setCreditCardName(String)
++ void setCreditCardZipCode(String)
++ String getCustomerID()
++ String getName()
++ String[] getAddress()
++ String getPhone()
++ String getEmail()
++ String toString()
+}
+@enduml
