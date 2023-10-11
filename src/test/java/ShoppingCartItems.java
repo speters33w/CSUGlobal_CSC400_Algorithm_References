@@ -1,10 +1,10 @@
-import edu.csuglobal.csc400.ShoppingCartItem;
+import edu.csuglobal.csc400.Item;
 
 import java.math.BigDecimal;
 
 public class ShoppingCartItems {
-    public static ShoppingCartItem campbellsChunkySoup(){
-        return new ShoppingCartItem("051000142924",
+    public static Item campbellsChunkySoup(){
+        return new Item("051000142924",
                 "Campbell’s Chunky Soup, Savory Pot Roast Soup",
                 new BigDecimal("1.99"),
                 "Campbell’s Chunky Savory Pot Roast Soup isn’t just tasty—" +

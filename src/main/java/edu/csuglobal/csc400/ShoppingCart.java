@@ -5,14 +5,14 @@ import com.pearson.carrano.BagInterface;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ShoppingCartBag implements BagInterface<ShoppingCartItem> {
+public class ShoppingCart implements BagInterface<Item> {
 
-    private ArrayList<ShoppingCartItem> items = new ArrayList<ShoppingCartItem>();
+    private ArrayList<Item> items = new ArrayList<Item>();
 
-    public ShoppingCartBag() {
+    public ShoppingCart() {
     }
 
-    public ShoppingCartBag(ArrayList<ShoppingCartItem> items) {
+    public ShoppingCart(ArrayList<Item> items) {
         this.items = items;
     }
 
@@ -24,17 +24,17 @@ public class ShoppingCartBag implements BagInterface<ShoppingCartItem> {
         return items.isEmpty();
     }
 
-    public boolean add(ShoppingCartItem newEntry) {
+    public boolean add(Item newEntry) {
         items.add(newEntry);
         return true;
     }
 
-    public ShoppingCartItem remove(){
+    public Item remove(){
         System.out.println("No item selected");
         return null;
     }
 
-    public boolean remove(ShoppingCartItem anEntry) {
+    public boolean remove(Item anEntry) {
         if (items.contains(anEntry)) {
             items.remove(anEntry);
             return true;
@@ -46,16 +46,16 @@ public class ShoppingCartBag implements BagInterface<ShoppingCartItem> {
         items.clear();
     }
 
-    public int getFrequencyOf(ShoppingCartItem anEntry) {
+    public int getFrequencyOf(Item anEntry) {
         return Collections.frequency(items, anEntry);
     }
 
-    public boolean contains(ShoppingCartItem anEntry) {
+    public boolean contains(Item anEntry) {
         return items.contains(anEntry);
     }
 
-    public ShoppingCartItem[] toArray() {
+    public Item[] toArray() {
 //        return items.toArray(new ShoppingCartItem[items.size()]); // IDE complained about this.
-        return items.toArray(new ShoppingCartItem[0]);
+        return items.toArray(new Item[0]);
     }
 }

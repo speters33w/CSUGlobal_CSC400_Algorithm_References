@@ -2,7 +2,7 @@ package edu.csuglobal.csc400;
 
 import java.math.BigDecimal;
 
-public class ShoppingCartItem {
+public class Item {
     private String upc;
     private String productName;
     private final BigDecimal price;
@@ -11,8 +11,8 @@ public class ShoppingCartItem {
     private boolean inStock;
     private String imageURL;
 
-    public ShoppingCartItem(String upc, String productName, BigDecimal price, String description, int quantity,
-                            boolean inStock, String imageURL) {
+    public Item(String upc, String productName, BigDecimal price, String description, int quantity,
+                boolean inStock, String imageURL) {
         this.upc = upc;
         this.productName = productName;
         this.price = price;
@@ -79,7 +79,7 @@ public class ShoppingCartItem {
         return price.multiply(new BigDecimal(quantity));
     }
 
-    public boolean equals(ShoppingCartItem item) {
+    public boolean equals(Item item) {
         return this.upc.equals(item.getUpc());
     }
 
