@@ -51,4 +51,85 @@ public class Customer {
         this.creditCardZipCode = creditCardZipCode;
     }
 
+    public void setFirstName (String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName (String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAddress (String address) {
+        this.address = address;
+    }
+
+    public void setCity (String city) {
+        this.city = city;
+    }
+
+    public void setState (String state) {
+        this.state = state;
+    }
+
+    public void setZip (String zip) {
+        this.zip = zip;
+    }
+
+    public void setPhone (String phone) {
+        this.phone = phone;
+    }
+
+    public void setEmail (String email) {
+        this.email = email;
+    }
+
+    public void setCreditCardNumber (String creditCardNumber) {
+        this.creditCardNumber = creditCardNumber;
+    }
+
+    public void setCreditCardExpiration (String creditCardExpiration) {
+        this.creditCardExpiration = creditCardExpiration;
+    }
+
+    public void setCreditCardCVV (String creditCardCVV) {
+        this.creditCardCVV = creditCardCVV;
+    }
+
+    public void setCreditCardType (String creditCardType) {
+        this.creditCardType = creditCardType;
+    }
+
+    public void setCreditCardName (String creditCardName) {
+        this.creditCardName = creditCardName;
+    }
+
+    public void setCreditCardZipCode (String creditCardZipCode) {
+        this.creditCardZipCode = creditCardZipCode;
+    }
+
+    public String getCustomerID() {
+        return customerID;
+    }
+
+    public String getName() {
+        return firstName + " " + lastName;
+    }
+
+    public String[] getAddress() {
+       return new String[]{address, city, state, zip};
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String toString(){
+        return String.format("Customer ID: %s%n%s %s%n%s%n%s, %s %s%nPhone: %s%nEmail: %s%n",
+                customerID, firstName, lastName, address, city, state, zip, phone, email);
+    }
+
 }
