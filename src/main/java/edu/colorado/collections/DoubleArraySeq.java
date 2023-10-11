@@ -46,7 +46,7 @@ public class DoubleArraySeq implements Cloneable
    //   2. For an empty sequence (with no elements), we do not care what is 
    //      stored in any of data; for a non-empty sequence, the elements of the
    //      sequence are stored in data[0] through data[manyItems-1], and we
-   //      don’t care what’s in the rest of data.
+   //      don't care what's in the rest of data.
    //   3. If there is a current element, then it lies in data[currentIndex];
    //      if there is no current element, then currentIndex equals manyItems. 
    private double[ ] data;

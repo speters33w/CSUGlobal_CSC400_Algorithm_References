@@ -8,19 +8,19 @@ import java.util.EmptyStackException;
 /******************************************************************************
 * An <CODE>ArrayStack</CODE> is a generic stack of
 * references to <code>E</code> objects.
-*
+* <br>
 * <b>Limitations:</b>
-*   
+* <br>
 *   (1) The capacity of one of these stacks can change after it's created, but
 *   the maximum capacity is limited by the amount of free memory on the 
 *   machine. The constructor, <CODE>ensureCapacity</CODE>, <CODE>push</CODE>, 
 *   and <CODE>trimToSize</CODE> will result in an 
 *   <CODE>OutOfMemoryError</CODE> when free memory is exhausted.
-*   
+* <br>
 *   (2) A stack's capacity cannot exceed the maximum integer 2,147,483,647
 *   (<CODE>Integer.MAX_VALUE</CODE>). Any attempt to create a larger capacity
 *   results in a failure due to an arithmetic overflow. 
-*
+* <br>
 * <b>Java Source Code for this class:</b>
 *   <A HREF="../../../../edu/colorado/collections/ArrayStack.java">
 *   http://www.cs.colorado.edu/~main/edu/colorado/collections/ArrayStack.java
@@ -110,7 +110,7 @@ public class ArrayStack<E> implements Cloneable
       catch (CloneNotSupportedException e)
       { 
          // This exception should not occur. But if it does, it would probably indicate a
-         // programming error that made super.clone unavailable. The most comon error
+         // programming error that made super.clone unavailable. The most common error
          // The most common error would be forgetting the "Implements Cloneable"
          // clause at the start of this class.
          throw new RuntimeException
@@ -136,7 +136,7 @@ public class ArrayStack<E> implements Cloneable
    **/
    public void ensureCapacity(int minimumCapacity)
    {
-      E biggerArray[ ];
+      E[] biggerArray;
       
       if (data.length < minimumCapacity)
       {
@@ -210,8 +210,8 @@ public class ArrayStack<E> implements Cloneable
 
  
    /**
-   * Push a new item onto this stack.  If the addition
-   * would take this stack beyond its current capacity, then the capacity is 
+   * Push a new item onto this stack.  If the addition would take
+   * this stack beyond its current capacity, then the capacity is
    * increased before adding the new item. The new item may be the null
    * reference.
    * @param item
@@ -260,7 +260,7 @@ public class ArrayStack<E> implements Cloneable
    **/   
    public void trimToSize( )
    {
-      E trimmedArray[ ];
+      E[] trimmedArray;
       
       if (data.length != manyItems)
       {

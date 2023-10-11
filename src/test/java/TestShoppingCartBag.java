@@ -2,7 +2,6 @@ import edu.csuglobal.csc400.Customer;
 import edu.csuglobal.csc400.ShoppingCartBag;
 import edu.csuglobal.csc400.ShoppingCartItem;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.HashMap;
 

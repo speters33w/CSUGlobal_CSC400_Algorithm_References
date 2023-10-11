@@ -43,7 +43,7 @@ public class IntArrayBag implements Cloneable
    //      manyItems, which is no more than data.length.
    //   2. For an empty bag, we do not care what is stored in any of data;
    //      for a non-empty bag, the elements in the bag are stored in data[0]
-   //      through data[manyItems-1], and we don’t care what’s in the
+   //      through data[manyItems-1], and we don't care what's in the
    //      rest of data.
    private int[ ] data;
    private int manyItems; 
@@ -273,7 +273,7 @@ public class IntArrayBag implements Cloneable
    * @return
    *   If target was found in the bag, then one copy of
    *   target has been removed and the method returns true. 
-   *   Otherwise the bag remains unchanged and the method returns false. 
+   *   Otherwise, the bag remains unchanged and the method returns false.
    **/
    public boolean remove(int target)
    {
