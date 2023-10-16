@@ -30,13 +30,13 @@ public interface BagInterface<T> {
      */
     boolean add(T newEntry);
 
-    /**
-     * Removes one unspecified entry from this bag, if possible.
-     *
-     * @return Either the removed entry, if the removal was successful, or
-     *         null.
-     */
-    T remove();
+//    /**
+//     * Removes one unspecified entry from this bag, if possible.
+//     *
+//     * @return Either the removed entry, if the removal was successful, or
+//     *         null.
+//     */
+//    T remove();
 
     /**
      * Removes one occurrence of a given entry from this bag.
