@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Added edu.princeton.cs.algs4 package.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Added more classes from Carrano Data Structures and Algorithms.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/ArrayBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/ArrayBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/Pairable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/Pairable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/SetInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/SetInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1697070000425" duration="618000" />
       <workItem from="1697246835622" duration="604000" />
       <workItem from="1697429466300" duration="3984000" />
-      <workItem from="1697433469051" duration="492000" />
+      <workItem from="1697433469051" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697247232290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added more classes from Carrano Data Structures and Algorithms.">
+      <created>1697434328266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697434328266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="Added UML, images and pseudocode for module 1" />
     <MESSAGE value="Updated JetBrains files" />
     <MESSAGE value="Added edu.princeton.cs.algs4 package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added edu.princeton.cs.algs4 package." />
+    <MESSAGE value="Added more classes from Carrano Data Structures and Algorithms." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more classes from Carrano Data Structures and Algorithms." />
   </component>
 </project>

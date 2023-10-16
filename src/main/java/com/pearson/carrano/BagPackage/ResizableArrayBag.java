@@ -71,10 +71,8 @@ public final class ResizableArrayBag<T> implements BagInterface<T>
       // The cast is safe because the new array contains null entries.
       @SuppressWarnings("unchecked")
       T[] result = (T[])new Object[numberOfEntries]; // Unchecked cast
-      for (int index = 0; index < numberOfEntries; index++)
-      {
-         result[index] = bag[index];
-      } // end for
+		// end for
+		System.arraycopy(bag, 0, result, 0, numberOfEntries);
       
       return result;
 	} // end toArray
@@ -134,8 +132,7 @@ public final class ResizableArrayBag<T> implements BagInterface<T>
 	public T remove()
 	{
 		checkInitialization();
-      T result = removeEntry(numberOfEntries - 1);
-      return result;
+		return removeEntry(numberOfEntries - 1);
 	} // end remove
 	
 	/** Removes one occurrence of a given entry from this bag.
