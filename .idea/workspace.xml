@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="minor tweaks to com.pearson.carrano">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Added ReadMe.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,6 +76,7 @@
       <workItem from="1697246835622" duration="604000" />
       <workItem from="1697429466300" duration="3984000" />
       <workItem from="1697433469051" duration="2240000" />
+      <workItem from="1697476929914" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697434967112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added ReadMe.md">
+      <created>1697476990459</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697476990459</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="Added edu.princeton.cs.algs4 package." />
     <MESSAGE value="Added more classes from Carrano Data Structures and Algorithms." />
     <MESSAGE value="minor tweaks to com.pearson.carrano" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor tweaks to com.pearson.carrano" />
+    <MESSAGE value="Added ReadMe.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ReadMe.md" />
   </component>
 </project>
