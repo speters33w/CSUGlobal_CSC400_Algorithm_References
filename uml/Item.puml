@@ -1,5 +1,5 @@
 @startuml
-class ShoppingCartItem {
+class Item {
 - String upc
 - String productName
 - BigDecimal price
@@ -7,7 +7,7 @@ class ShoppingCartItem {
 - int quantity
 - boolean inStock
 - String imageURL
-+ <<Create>> ShoppingCartItem(String,String,BigDecimal,String,int,boolean,String)
++ <<Create>> Item(String,String,BigDecimal,String,int,boolean,String)
 + String getUpc()
 + String getProductName()
 + BigDecimal getPrice()
@@ -22,7 +22,7 @@ class ShoppingCartItem {
 + void setInStock(boolean)
 + void setImageURL(String)
 + BigDecimal getTotal()
-+ boolean equals(ShoppingCartItem)
++ boolean equals(Item)
 + String toString()
 }
 @enduml

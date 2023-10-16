@@ -1,5 +1,5 @@
-```
-class ShoppingCartItem:
+```pseudocode
+class Item:
     private upc: string
     private productName: string
     private price: BigDecimal
@@ -60,7 +60,7 @@ class ShoppingCartItem:
     method getTotal() -> BigDecimal:
         return price.multiply(new BigDecimal(quantity))
 
-    method equals(item: ShoppingCartItem) -> boolean:
+    method equals(item: Item) -> boolean:
         return this.upc.equals(item.getUpc())
 
     method toString() -> string:

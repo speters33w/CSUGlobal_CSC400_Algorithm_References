@@ -1,4 +1,4 @@
-```
+```pseudocode
 interface BagInterface<T> {
     function getCurrentSize() : integer
     function isEmpty() : boolean

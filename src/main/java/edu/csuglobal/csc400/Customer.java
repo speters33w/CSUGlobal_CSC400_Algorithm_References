@@ -1,5 +1,8 @@
 package edu.csuglobal.csc400;
 
+/**
+ * This class represents a customer in the system.
+ */
 public class Customer {
     private String customerID;
     private String firstName;
@@ -17,6 +20,19 @@ public class Customer {
     private String creditCardName;
     private String creditCardZipCode;
 
+    /**
+     * Creates a new customer object without credit card information.
+     *
+     * @param customerID String representation of the customer's unique ID.
+     * @param firstName String representation of the customer's first name.
+     * @param lastName String representation of the customer's last name.
+     * @param address String representation of the customer's street address.
+     * @param city String representation of the customer's city.
+     * @param state String representation of the customer's state.
+     * @param zip String representation of the customer's zip code.
+     * @param phone String representation of the customer's phone number.
+     * @param email String representation of the customer's email address.
+     */
     public Customer(String customerID, String firstName, String lastName, String address, String city, String state,
                     String zip, String phone, String email) {
         new Customer(customerID, firstName, lastName, address, city, state, zip, phone, email,
@@ -24,6 +40,26 @@ public class Customer {
                 "Undefined", "Undefined", "Undefined");
     }
 
+    /**
+     * Creates a new customer object with credit card information
+     * except for CVV which it stores as "Undefined".
+     *
+     * @param customerID String representation of the customer's unique ID.
+     * @param firstName String representation of the customer's first name.
+     * @param lastName String representation of the customer's last name.
+     * @param address String representation of the customer's street address.
+     * @param city String representation of the customer's city.
+     * @param state String representation of the customer's state.
+     * @param zip String representation of the customer's zip code.
+     * @param phone String representation of the customer's phone number.
+     * @param email String representation of the customer's email address.
+     * @param creditCardNumber String representation of the customer's credit card number.
+     * @param creditCardExpiration String representation of the customer's credit card expiration date.
+     * @param creditCardType String representation of the customer's credit card type.
+     *                       (e.g. Visa, MasterCard, American Express, etc.)
+     * @param creditCardName String representation of the customer's credit card holder name.
+     * @param creditCardZipCode String representation of the customer's credit card zip code.
+     */
     public Customer(String customerID, String firstName, String lastName, String address, String city, String state,
                     String zip, String phone, String email, String creditCardNumber, String creditCardExpiration,
                     String creditCardType, String creditCardName, String creditCardZipCode) {
@@ -31,6 +67,26 @@ public class Customer {
                 creditCardExpiration, null, creditCardType, creditCardName, creditCardZipCode);
     }
 
+    /**
+     * Creates a new customer object with credit card information including CVV.
+     *
+     * @param customerID String representation of the customer's unique ID.
+     * @param firstName String representation of the customer's first name.
+     * @param lastName String representation of the customer's last name.
+     * @param address String representation of the customer's street address.
+     * @param city String representation of the customer's city.
+     * @param state String representation of the customer's state.
+     * @param zip String representation of the customer's zip code.
+     * @param phone String representation of the customer's phone number.
+     * @param email String representation of the customer's email address.
+     * @param creditCardNumber String representation of the customer's credit card number.
+     * @param creditCardExpiration String representation of the customer's credit card expiration date.
+     * @param creditCardCVV String representation of the customer's credit card CVV number.
+     * @param creditCardType String representation of the customer's credit card type.
+     *                       (e.g. Visa, MasterCard, American Express, etc.)
+     * @param creditCardName String representation of the customer's credit card holder name.
+     * @param creditCardZipCode String representation of the customer's credit card zip code.
+     */
     public Customer(String customerID, String firstName, String lastName, String address, String city, String state,
                     String zip, String phone, String email, String creditCardNumber, String creditCardExpiration,
                     String creditCardCVV, String creditCardType, String creditCardName, String creditCardZipCode) {

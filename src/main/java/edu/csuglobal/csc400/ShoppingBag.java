@@ -5,14 +5,14 @@ import com.pearson.carrano.BagPackage.BagInterface;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ShoppingCart implements BagInterface<Item> {
+public class ShoppingBag implements BagInterface<Item> {
 
-    private ArrayList<Item> items = new ArrayList<Item>();
+    private ArrayList<Item> items = new ArrayList<>();
 
-    public ShoppingCart() {
+    public ShoppingBag() {
     }
 
-    public ShoppingCart(ArrayList<Item> items) {
+    public ShoppingBag(ArrayList<Item> items) {
         this.items = items;
     }
 

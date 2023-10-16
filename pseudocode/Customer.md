@@ -1,4 +1,4 @@
-```
+```pseudocode
 class Customer {
     private customerID: String
     private firstName: String

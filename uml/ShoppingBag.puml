@@ -1,0 +1,19 @@
+@startuml
+class ShoppingBag {
+- ArrayList<Item> items
++ <<Create>> ShoppingBag()
++ <<Create>> ShoppingBag(ArrayList<Item>)
++ int getCurrentSize()
++ boolean isEmpty()
++ boolean add(Item)
++ Item remove()
++ boolean remove(Item)
++ void clear()
++ int getFrequencyOf(Item)
++ boolean contains(Item)
++ Item[] toArray()
+}
+
+
+BagInterface <|.. ShoppingBag
+@enduml
