@@ -1,6 +1,6 @@
 package edu.csuglobal.csc400;
 
-import com.pearson.carrano.BagInterface;
+import com.pearson.carrano.BagPackage.BagInterface;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.pearson.carrano;
+package com.pearson.carrano.BagPackage;
 
 /**
  * An interface that describes the operations of a bag of objects.
