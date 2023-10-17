@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Renamed project classes, updated pseudocode, uml, and images">
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Created JavaDoc comments in csc400 package files.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/sandbox/BagArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/BagInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/BagInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/ShoppingBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/ShoppingBag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1697481161038" duration="334000" />
       <workItem from="1697483972848" duration="1220000" />
       <workItem from="1697485457645" duration="580000" />
-      <workItem from="1697486255523" duration="2341000" />
+      <workItem from="1697486255523" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697486003041</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created JavaDoc comments in csc400 package files.">
+      <created>1697488683651</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697488683651</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
     <MESSAGE value="Added data files from Princeton's Algorithms Coursera course." />
     <MESSAGE value="Updated ReadMe.md." />
     <MESSAGE value="Renamed project classes, updated pseudocode, uml, and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed project classes, updated pseudocode, uml, and images" />
+    <MESSAGE value="Created JavaDoc comments in csc400 package files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created JavaDoc comments in csc400 package files." />
   </component>
 </project>
