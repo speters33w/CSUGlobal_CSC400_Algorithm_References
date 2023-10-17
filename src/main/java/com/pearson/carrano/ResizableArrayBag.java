@@ -1,4 +1,4 @@
-package com.pearson.carrano.BagPackage;
+package com.pearson.carrano;
 
 import java.util.Arrays;
 /**
@@ -222,7 +222,7 @@ public final class ResizableArrayBag<T> implements BagInterface<T>
          throw new SecurityException ("Uninitialized object used " +
                                       "to call an ArrayBag method.");
    } // end checkInitialization
-} // end com.pearson.carrano.BagPackage.ResizableArrayBag
+} // end com.pearson.carrano.ResizableArrayBag
 
 
 

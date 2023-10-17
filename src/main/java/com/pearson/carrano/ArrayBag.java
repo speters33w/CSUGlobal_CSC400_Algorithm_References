@@ -1,15 +1,15 @@
-package com.pearson.carrano.BagPackage;
+package com.pearson.carrano;
 
 /**
     A class of bags whose entries are stored in a fixed-size array.
     @author Frank M. Carrano
     @version 4.0
 */
-public final class ArrayBag<T> implements BagInterface<T>
+public class ArrayBag<T> implements BagInterface<T>
 {
 	private final T[] bag; 
 	private int numberOfEntries;
-   private boolean initialized = false;
+    private boolean initialized = false;
 	private static final int DEFAULT_CAPACITY = 25;
 	private static final int MAX_CAPACITY = 10000;
 
@@ -148,7 +148,7 @@ public final class ArrayBag<T> implements BagInterface<T>
 	} // end remove   
 	
    // Returns true if the array bag is full, or false if not.
-	private boolean isArrayFull()
+	public boolean isArrayFull()
 	{
 		return numberOfEntries >= bag.length;
 	} // end isArrayFull

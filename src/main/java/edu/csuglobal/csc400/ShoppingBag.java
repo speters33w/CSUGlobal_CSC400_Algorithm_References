@@ -1,6 +1,6 @@
 package edu.csuglobal.csc400;
 
-import com.pearson.carrano.BagPackage.BagInterface;
+import com.pearson.carrano.BagInterface;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -110,4 +110,6 @@ public class ShoppingBag implements BagInterface<Item> {
 //        return items.toArray(new ShoppingCartItem[items.size()]); //todo IDE complained about this.
         return items.toArray(new Item[0]);
     }
+
+    //todo equals()
 }

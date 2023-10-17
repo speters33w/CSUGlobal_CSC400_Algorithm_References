@@ -1,4 +1,4 @@
-package com.pearson.carrano.BagPackage;
+package com.pearson.carrano;
 
 /**
  * OUTLINE

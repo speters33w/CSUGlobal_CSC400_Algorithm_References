@@ -243,7 +243,7 @@ public class ArrayBag<E> implements Cloneable
    **/
    public void ensureCapacity(int minimumCapacity)
    {
-      Object biggerArray[ ];
+      Object[] biggerArray;
       
       if (data.length < minimumCapacity)
       {
@@ -296,7 +296,7 @@ public class ArrayBag<E> implements Cloneable
    * @return
    *   If target was found in the bag, then one copy of
    *   target has been removed and the method returns true. 
-   *   Otherwise the bag remains unchanged and the method returns false. 
+   *   Otherwise, the bag remains unchanged and the method returns false.
    **/
    public boolean remove(E target)
    {
@@ -393,7 +393,7 @@ public class ArrayBag<E> implements Cloneable
       // In the case that the total number of items is beyond
       // Integer.MAX_VALUE, there will be an arithmetic overflow and
       // the bag will fail.   
-      ArrayBag<E> answer = new ArrayBag<E>(b1.getCapacity( ) + b2.getCapacity( ));
+      ArrayBag<E> answer = new ArrayBag<>(b1.getCapacity() + b2.getCapacity());
       
       System.arraycopy(b1.data, 0, answer.data, 0, b1.manyItems);
       System.arraycopy(b2.data, 0, answer.data, b1.manyItems, b2.manyItems);
