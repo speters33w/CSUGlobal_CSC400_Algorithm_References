@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Examples for Discussion 2">
-      <change afterPath="$PROJECT_DIR$/img/Flowchart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/ArrayBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/ArrayBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/BagInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/LinkedBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/LinkedBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/BagPackage/ResizableArrayBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pearson/carrano/ResizableArrayBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/colorado/collections/ArrayBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/colorado/collections/ArrayBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/ShoppingBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/ShoppingBag.java" afterDir="false" />
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/basicJFrame/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/basicJFrame/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/cs151xx/Prompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/blue-ball.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/hotdog.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/red-ball.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +101,7 @@
       <workItem from="1697486255523" duration="5971000" />
       <workItem from="1697507977884" duration="5260000" />
       <workItem from="1697516005239" duration="4884000" />
+      <workItem from="1698977246770" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
