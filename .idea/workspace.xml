@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/basicJFrame/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/basicJFrame/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/DrawPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/buttonJPanel/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/cs151xx/Prompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/DrawPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/figureJPanel/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/blue-ball.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/hotdog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/images/red-ball.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/DrawPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/cs/pattis/views/imagesJPanel/View.java" afterDir="false" />
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Added package org.scijava.parsington;">
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +88,7 @@
       <workItem from="1697507977884" duration="5260000" />
       <workItem from="1697516005239" duration="4884000" />
       <workItem from="1698977246770" duration="270000" />
+      <workItem from="1698977671625" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
@@ -201,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697508453623</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added package org.scijava.parsington;">
+      <created>1698977760970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698977760970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +216,7 @@
     <MESSAGE value="Created JavaDoc comments in csc400 package files." />
     <MESSAGE value="Added more source from Carrano." />
     <MESSAGE value="Examples for Discussion 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Examples for Discussion 2" />
+    <MESSAGE value="Added package org.scijava.parsington;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added package org.scijava.parsington;" />
   </component>
 </project>
