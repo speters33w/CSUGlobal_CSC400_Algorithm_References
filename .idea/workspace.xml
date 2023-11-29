@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Added package org.scijava.parsington;">
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+    <list default="true" id="eb80d17d-89e0-43d0-af20-77aa2863354b" name="Changes" comment="Updated ReadMe.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csuglobal/csc400/sandbox/BagArrays.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OneDrive/Java/projects/CSUGlobal/BagVsArraylist&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OneDrive/Java/projects/CSUGlobal/CSC_400_Algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,7 +89,13 @@
       <workItem from="1697507977884" duration="5260000" />
       <workItem from="1697516005239" duration="4884000" />
       <workItem from="1698977246770" duration="270000" />
-      <workItem from="1698977671625" duration="404000" />
+      <workItem from="1698977671625" duration="508000" />
+      <workItem from="1698978677824" duration="23000" />
+      <workItem from="1698978735879" duration="22000" />
+      <workItem from="1699287617558" duration="709000" />
+      <workItem from="1699489909491" duration="4256000" />
+      <workItem from="1701277827479" duration="99000" />
+      <workItem from="1701277983323" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Customer.java">
       <created>1697037186167</created>
@@ -195,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698977760970</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated ReadMe.">
+      <created>1698978135018</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698978135018</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +231,7 @@
     <MESSAGE value="Added more source from Carrano." />
     <MESSAGE value="Examples for Discussion 2" />
     <MESSAGE value="Added package org.scijava.parsington;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added package org.scijava.parsington;" />
+    <MESSAGE value="Updated ReadMe." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe." />
   </component>
 </project>
